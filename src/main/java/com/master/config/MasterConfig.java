@@ -11,7 +11,7 @@ import com.master.service.SimpleMasterServiceImpl;
 @Configuration
 public class MasterConfig {
 
-	@Autowired(required = true)
+	@Autowired
 	CountryRepository countryRepository;
 
 	@Bean
